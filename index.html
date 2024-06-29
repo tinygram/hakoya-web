@@ -34,9 +34,9 @@
                 <div>
                     <p>끊임없이 이어지는<br>고양이이를 만나보세요</p>
                 </div>
-                <div class="img01">
+                <div class="img03">
                     <div>
-                        <img src="./img/01.png" alt="Responsive Image">
+                        <video src="./img/video_00.webm" autoplay muted loop playsinline></video>
                     </div>
                 </div>
 
@@ -50,10 +50,10 @@
                 <div class="img02">
                     <div>
                         <div class="last00">
-                            <img src="./img/Home Screen Widget - iPhone.png" alt="Responsive Image">
+                            <img src="./img/last00.png" alt="Responsive Image">
                         </div>
                         <div class="last01">
-                            <img src="./img/Home Screen Widget - iPhone-1.png" alt="Responsive Image">
+                            <img src="./img/last10.png" alt="Responsive Image">
                         </div>
                     </div>
                 </div>
@@ -73,5 +73,32 @@
             </div>
         </div>
     </div>
+    <script>
+        const images00 = [
+            './img/last00.png',
+            './img/last01.png',
+            './img/last02.png',
+            './img/last03.png'
+        ];
+        const images01 = [
+            './img/last10.png',
+            './img/last11.png',
+            './img/last12.png',
+            './img/last13.png'
+        ];
+
+        let index00 = 0;
+        let index01 = 0;
+
+        function rotateImages() {
+            index00 = (index00 + 1) % images00.length;
+            index01 = (index01 + 1) % images01.length;
+
+            document.querySelector('.last00 img').src = images00[index00];
+            document.querySelector('.last01 img').src = images01[index01];
+        }
+
+        setInterval(rotateImages, 2000); // 3초마다 이미지 변경
+    </script>
 </body>
 </html>
