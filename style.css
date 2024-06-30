@@ -30,8 +30,8 @@ p {
 
 .main0 > div {
     display: flex;
-    width: 360px;
-    padding: 64px 20px 0px 20px;
+    margin: 0 auto;
+    padding: 64px 0px 0px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -109,8 +109,8 @@ p {
 
 .main1 > div {
     display: flex;
-    width: 360px;
-    padding: 64px 20px 0px 20px;
+    margin: 0 auto;
+    padding: 64px 0px 0px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -156,7 +156,7 @@ p {
 
 .main2 > div {
     display: flex;
-    width: 360px;
+    margin: 0 auto;
     padding: 64px 20px 0px 20px;
     flex-direction: column;
     justify-content: center;
@@ -277,7 +277,7 @@ p {
 
 .tinygram > div {
     display: flex;
-    width: 360px;
+    margin: 0 auto;
     padding: 64px 20px 130px 20px;
     flex-direction: column;
     justify-content: center;
