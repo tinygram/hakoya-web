@@ -325,18 +325,4 @@ p {
         overflow-x: hidden; /* 모바일에서 수평 스크롤 방지 */
     }
 
-    .main0, .main1, .main2, .tinygram, .bot {
-        width: 100%;
-    }
-
-    .main0 > div, .main1 > div, .main2 > div, .tinygram > div, .bot > div {
-        width: 100%;
-        padding: 64px 20px 0px 20px; /* 모바일에서의 패딩 조정 */
-    }
-
-    .img01, .img02, .img03 {
-        width: calc(100% - 36px); /* 모바일에서의 이미지 너비 조정 */
-        height: auto;
-        padding: 20px; /* 모바일에서의 패딩 조정 */
-    }
 }
