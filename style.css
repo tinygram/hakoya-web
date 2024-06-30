@@ -27,7 +27,7 @@ p {
 
 .main0 {
     margin: auto;
-    max-width: 720px;
+    max-width: 640px;
     background-color: #FFF5F7;
     display: flex;
     justify-content: center;
@@ -105,7 +105,7 @@ p {
 
 .main1 {
     margin: auto;
-    max-width: 720px;
+    max-width: 640px;
     background-color: #FAFAFA;
     display: flex;
     justify-content: center;
@@ -151,7 +151,7 @@ p {
 
 .main2 {
     margin: auto;
-    max-width: 720px;
+    max-width: 640px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -237,7 +237,7 @@ p {
 .bot > div {
 
     display: flex;
-    max-width: 720px;
+    max-width: 640px;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -272,7 +272,7 @@ p {
 
 .tinygram {
     margin: auto;
-    max-width: 720px;
+    max-width: 640px;
     background-color: #FAFAFA;
 }
 
