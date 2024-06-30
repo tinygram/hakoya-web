@@ -320,7 +320,7 @@ p {
     gap: 4px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen {
     body {
         overflow-x: hidden; /* 모바일에서 수평 스크롤 방지 */
     }
