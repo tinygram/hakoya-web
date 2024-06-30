@@ -10,6 +10,10 @@ body {
     width: 100%; /* 화면 너비를 100%로 설정 */
 }
 
+.main0 > div, .main1 > div, .main2 > div, .tinygram > div, .bot > div {
+    width: 100%;
+}
+
 p {
     color: #372B2B;
     font-family: Pretendard Variable;
