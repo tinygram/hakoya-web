@@ -1,23 +1,8 @@
 body {
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     margin: 0;
-    width: 100%;
-    overflow-x: hidden; /* 수평 스크롤 방지 */
 
 }
-
-.main0, .main1, .main2, .tinygram, .bot {
-    margin: 0 auto;
-    width: 100%; /* 화면 너비를 100%로 설정 */
-
-}
-
-.main0 > div, .main1 > div, .main2 > div, .tinygram > div, .bot > div {
-    margin: 0 auto; /* 중앙 정렬 */
-    width: 100%;
-
-}
-
 
 p {
     color: #372B2B;
@@ -32,6 +17,7 @@ p {
 
 .main0 {
     margin: auto;
+    min-width: 360px;
     max-width: 640px;
     background-color: #FFF5F7;
     display: flex;
@@ -45,7 +31,7 @@ p {
 .main0 > div {
     display: flex;
     width: 360px;
-    padding: 64px 20px 0px 20px;
+    padding: 64px 20px 0px 60px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -110,6 +96,7 @@ p {
 
 .main1 {
     margin: auto;
+    min-width: 360px;
     max-width: 640px;
     background-color: #FAFAFA;
     display: flex;
@@ -123,7 +110,7 @@ p {
 .main1 > div {
     display: flex;
     width: 360px;
-    padding: 64px 20px 0px 20px;
+    padding: 64px 20px 0px 60px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -156,6 +143,7 @@ p {
 
 .main2 {
     margin: auto;
+    min-width: 360px;
     max-width: 640px;
     background-color: #fff;
     display: flex;
@@ -169,19 +157,18 @@ p {
 .main2 > div {
     display: flex;
     width: 360px;
-    padding: 64px 20px 0px 20px;
+    padding: 64px 20px 0px 60px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 22px;
-    margin: auto;
 }
 
 .img02 {
     box-shadow: 0px 0px 20px 0px rgba(255, 125, 151, 0.25);
     margin-top: 20px;
     width: 276px;
-    height: 400px;
+    height: 460px;
     background-color: #fff;
     border-radius: 47px 47px 0px 0px;
     padding: 18px 18px 0px 18px;
@@ -318,11 +305,4 @@ p {
     display: flex;
     align-items: center;
     gap: 4px;
-}
-
-@media only screen {
-    body {
-        overflow-x: hidden; /* 모바일에서 수평 스크롤 방지 */
-    }
-
 }
