@@ -263,15 +263,26 @@ p {
 }
 
 .tinygram {
-    margin: auto;
+    margin: 0 auto;
+    min-width: 360px;
     max-width: 640px;
-    background-color: #FAFAFA;
+    background-color: #FFF5F7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    overflow: hidden;
 }
 
 .tinygram > div {
+    display: flex;
     width: 360px;
-    padding: 64px 20px 130px 20px;
-    margin: auto;
+    padding: 64px 20px 130px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 22px;
 }
 .tinygram > div > .logo > p {
     color: #A38A8A;
@@ -305,4 +316,5 @@ p {
     display: flex;
     align-items: center;
     gap: 4px;
+    
 }
