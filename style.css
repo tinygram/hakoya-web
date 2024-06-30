@@ -6,6 +6,10 @@ body {
 
 }
 
+.main0, .main1, .main2, .tinygram, .bot {
+    width: 100%; /* 화면 너비를 100%로 설정 */
+}
+
 p {
     color: #372B2B;
     font-family: Pretendard Variable;
