@@ -23,7 +23,6 @@ p {
 
 .main0 {
     margin: auto;
-    min-width: 360px;
     max-width: 720px;
     background-color: #FFF5F7;
     display: flex;
@@ -102,7 +101,6 @@ p {
 
 .main1 {
     margin: auto;
-    min-width: 360px;
     max-width: 720px;
     background-color: #FAFAFA;
     display: flex;
@@ -149,7 +147,6 @@ p {
 
 .main2 {
     margin: auto;
-    min-width: 360px;
     max-width: 720px;
     background-color: #fff;
     display: flex;
@@ -271,7 +268,6 @@ p {
 
 .tinygram {
     margin: auto;
-    min-width: 360px;
     max-width: 720px;
     background-color: #FAFAFA;
 }
