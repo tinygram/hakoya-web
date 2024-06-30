@@ -9,18 +9,16 @@ body {
 .main0, .main1, .main2, .tinygram, .bot {
     margin: 0 auto;
     width: 100%; /* 화면 너비를 100%로 설정 */
-    overflow: hidden;
+
 }
 
 .main0 > div, .main1 > div, .main2 > div, .tinygram > div, .bot > div {
     margin: 0 auto; /* 중앙 정렬 */
     width: 100%;
-    overflow: hidden;
+
 }
 
-.img01, .img02, .img03 {
-    overflow: hidden;
-}
+
 p {
     color: #372B2B;
     font-family: Pretendard Variable;
@@ -333,11 +331,11 @@ p {
 
     .main0 > div, .main1 > div, .main2 > div, .tinygram > div, .bot > div {
         width: 100%;
-        padding: 64px 10px 0px 10px; /* 모바일에서의 패딩 조정 */
+        padding: 64px 20px 0px 20px; /* 모바일에서의 패딩 조정 */
     }
 
     .img01, .img02, .img03 {
         width: calc(100% - 36px); /* 모바일에서의 이미지 너비 조정 */
         height: auto;
-        padding: 10px; /* 모바일에서의 패딩 조정 */
+        padding: 20px; /* 모바일에서의 패딩 조정 */
     }
